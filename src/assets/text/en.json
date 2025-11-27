@@ -1,0 +1,44 @@
+{
+  "expertise": "Expertise",
+  "history": "History",
+  "projects": "Projects",
+  "contact": "Contact",
+  "name": "Beso Kelekhsaevi",
+  "pro": "Full Stack Engineer",
+  "career_history": "Career History",
+  "timeline2017": "Reception Operator at Residential Complex",
+  "timeline2017_desc": "Handled visitor inquiries, managed phone lines, and coordinated resident requests.",
+
+  "timeline2020": "Personal Assistant for a Child with Autism Spectrum",
+  "timeline2020_desc": "Supported daily activities, assisted with learning tasks, and provided personalized care.",
+
+  "timeline2022": "Chat Operator at EuropeBet",
+  "timeline2022_desc": "Provided online customer support, managed chat inquiries, and ensured smooth user experience.",
+
+  "timeline2024": "Personal Assistant for a Child with Autism Spectrum",
+  "timeline2024_desc": "Helped with daily routines, educational activities, and social skills development.",
+
+  "timeline20242": "Independent Trader",
+  "timeline2024_desc2": "Managed cryptocurrency farming and small-scale trading, analyzing markets and optimizing strategies.",
+
+  "tbilisi": "Tbilisi",
+
+  "title": "Full Stack Web Development",
+  "fullstack": "I have built a diverse array of web applications from scratch using modern technologies such as React, Next and Node/Express. I have a strong proficiency in the SDLC process and frontend + backend development.",
+  "devops": "After building the application, I can set up DevOps testing, CI/CD pipelines, and deployment automation to ensure a successful Go-Live process.",
+  "genai": "I stay up-to-date with modern AI technologies and integrate the latest Hugging Face and OpenAI models into my projects. I have hands-on experience building GenAI-enabled features that support intelligent decision-making and enhance application functionality.",
+  "echo": "A full-stack social platform built with Next.js, Express, and MongoDB. The app includes user authentication, posts, comments, likes, profiles, and real-time features via WebSockets. Integrated AI-assisted content tools using OpenAI models. Implemented secure REST APIs, database schemas, and responsive UI/UX.",
+  "oasis": "Resort app where users can book cabins and enjoy relaxing in a natural environment. The app is built with Next.js, stores data in Supabase, and uses Google Auth for authentication.",
+  "oasisadmin": "Wild Oasis Admin Panel is a management dashboard built for handling everything behind the scenes of the Wild Oasis resort.Admins can manage cabins, oversee bookings, track guests, update prices, and monitor key statistics — all through a clean and intuitive interface.The project uses Next.js and Supabase.",
+  "worldwise": "WorldWise is a travel-oriented web application that allows users to explore, add, and manage cities around the world. Users can view cities on a map, see detailed information about each city, and add new cities with notes and coordinates.",
+  "pmenu": "Pizza Ordering Simulator — a React-based web application that simulates a pizza ordering experience. Users can browse menu items, customize their pizza with toppings, view the order summary, and simulate checkout. The project demonstrates dynamic state management, component-based architecture, and interactive UI design.",
+  "contactme": "Contact Me",
+  "contacttext": "Got a project waiting to be realized? Let's collaborate and make it happen!",
+  "fbai": "This project is a full-stack web application for football match predictions. Users can register and log in using a secure authentication system built with Express sessions, MongoDB, and Redis as a session store for better speed and stability. The app fetches real match data from FootballAPI, so users always see up-to-date fixtures, standings, and stats.For predictions, the system uses ChatGPT, which analyzes match information and generates a smart prediction for each game.The user can browse matches, request predictions, save them, and return later thanks to the persistent session management handled through Redis.",
+  "front": "I build responsive and interactive user interfaces using modern frontend technologies like React, Next.js, TypeScript, and Tailwind CSS. I focus on delivering seamless user experiences while maintaining clean, scalable, and maintainable code.",
+  "back": "I develop robust backend systems using Node.js, Express, and databases like MongoDB and PostgreSQL. I design and implement RESTful APIs, handle data storage, and ensure secure and efficient server-side operations to support frontend applications.",
+  "database": "I design and manage databases using both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) technologies. I ensure data integrity, optimize queries, and implement efficient data models to support application requirements and performance.",
+  "deploy": "I utilize a variety of development tools and platforms including Git for version control, Docker for containerization, and CI/CD pipelines for automated testing and deployment. I also work with cloud services like AWS and Heroku to deploy and manage applications in production environments.",
+  "tools": "",
+  "send": "SEND"
+}

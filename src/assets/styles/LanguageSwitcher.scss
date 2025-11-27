@@ -1,0 +1,129 @@
+.language-switcher {
+  display: flex;
+  gap: 8px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  // Compact version for navigation bar
+  .language-switcher--nav & {
+    padding: 0;
+    margin-bottom: 0;
+    gap: 12px;
+  }
+
+  &__button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    min-width: 70px;
+
+    // Compact version for navigation
+    .language-switcher--nav & {
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      min-width: 60px;
+      border-radius: 8px;
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.9);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+
+    &--active {
+      background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+      color: white;
+      border-color: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 16px rgba(79, 70, 229, 0.4);
+      font-weight: 700;
+
+      &:hover {
+        background: linear-gradient(135deg, #5B52F0 0%, #8B4DF5 100%);
+        box-shadow: 0 6px 20px rgba(79, 70, 229, 0.5);
+      }
+    }
+  }
+}
+
+// Light mode styles
+.light-mode {
+  .language-switcher {
+    &__button {
+      background: rgba(0, 0, 0, 0.03);
+      color: rgba(13, 17, 22, 0.7);
+      border-color: rgba(0, 0, 0, 0.08);
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.06);
+        color: rgba(13, 17, 22, 0.9);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      &--active {
+        background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+        color: white;
+        border-color: rgba(79, 70, 229, 0.3);
+        box-shadow: 0 4px 16px rgba(79, 70, 229, 0.3);
+
+        &:hover {
+          background: linear-gradient(135deg, #5B52F0 0%, #8B4DF5 100%);
+          box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
+        }
+      }
+    }
+  }
+}
+
+// Responsive design
+@media screen and (max-width: 768px) {
+  .language-switcher {
+    padding: 15px 10px;
+    gap: 6px;
+    margin-bottom: 15px;
+
+    &__button {
+      padding: 8px 14px;
+      font-size: 0.85rem;
+      min-width: 60px;
+      gap: 4px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .language-switcher {
+    padding: 12px 5px;
+    gap: 4px;
+
+    &__button {
+      padding: 6px 10px;
+      font-size: 0.75rem;
+      min-width: 50px;
+      border-radius: 8px;
+    }
+  }
+}
+
