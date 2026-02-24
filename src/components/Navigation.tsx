@@ -28,7 +28,7 @@ const navItems = [
 
 function Navigation({ parentToChild, modeChange }: any) {
   const { mode } = parentToChild;
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
