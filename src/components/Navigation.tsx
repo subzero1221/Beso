@@ -33,9 +33,6 @@ function Navigation({ parentToChild, modeChange }: any) {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
 
-  const changeLanguage = (lang: string) => {
-    i18n.changeLanguage(lang);
-  };
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
