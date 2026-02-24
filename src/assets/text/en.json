@@ -19,9 +19,7 @@
   "timeline2024_desc": "Helped with daily routines, educational activities, and social skills development.",
 
   "timeline20242": "Full Stack web Developer at SalesAgent",
-  "timeline2024_desc2": "Built an AI sales agent for Meta platforms (Messenger/Instagram) using Next.js, Node.js/Express and Supabase to automate customer support and inventory checks.
-Engineered a multimodal vision pipeline with the Gemini API to analyze user-uploaded photos, detect brands, and visually match them against database stock.
-Designed complex webhook architectures to handle asynchronous Meta API events, successfully resolving race conditions between simultaneous text and image payloads.",
+  "timeline2024_desc2": "Built an AI sales agent for Meta platforms (Messenger/Instagram) using Next.js, Node.js/Express and Supabase to automate customer support and inventory checks. Engineered a multimodal vision pipeline with the Gemini API to analyze user-uploaded photos, detect brands, and visually match them against database stock. Designed complex webhook architectures to handle asynchronous Meta API events.",
 
   "tbilisi": "Tbilisi",
 
