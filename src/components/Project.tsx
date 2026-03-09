@@ -1,4 +1,5 @@
 import React from "react";
+import mock04 from "../assets/images/mock04.png";
 import mock05 from "../assets/images/mock05.png";
 import mock06 from "../assets/images/mock06.png";
 import mock07 from "../assets/images/mock07.png";
@@ -14,6 +15,23 @@ function Project() {
     <div className="projects-container" id="projects">
       <h1>Personal Projects</h1>
       <div className="projects-grid">
+        <div className="project">
+          <a
+            href="salesagent.ge"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
+          </a>
+          <a
+            href="salesagent.ge"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>SalesAgent</h2>
+          </a>
+          <p>{t("salesagent")}</p>
+        </div>
         <div className="project">
           <a
             href="https://echonext-production.up.railway.app/"
